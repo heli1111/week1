@@ -4,9 +4,7 @@ var input = [
   { x: 8, y: 15 }
 ];
 var result = input.map(function(num){
-	num.x
-
-
+	return Math.sqrt(num.x*num.x + num.y*num.y);
 });
 
 console.log(result[0] === 5);
