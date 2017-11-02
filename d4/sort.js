@@ -23,10 +23,7 @@ var sortedStudents = students.sort(function customComparator(a,b){
   if (a.name < b.name) {
     	return -1;
   }
-  if (a.name === b.name){
-		return b.age - a.age;
-	}
-  return 0;
+	return b.age - a.age;
 });
 
 //print new array to monitor
